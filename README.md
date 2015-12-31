@@ -2,9 +2,9 @@
 
 www.averagestar.com lets you explore mean Yelp ratings by business category (such as "Food", "Barber Shops", or "Post Offices").
 
-The data comes from [Yelp Dataset Challenge][http://www.yelp.com/dataset_challenge]. Among other things, this dataset contains attributes of about 61,000 businesses from 10 metropolitan areas in the US, Canada, UK, and Germany, inlcluding the businesses' categories and Yelp star ratings.
+The data comes from [Yelp Dataset Challenge](http://www.yelp.com/dataset_challenge). Among other things, this dataset contains attributes of about 61,000 businesses from 10 metropolitan areas in the US, Canada, UK, and Germany, inlcluding the businesses' categories and Yelp star ratings.
 
-This repository contains the code for processing the data (`process_categories.R`), the resulting dataset in the R object format (`categories.Rdata`), and the [reactive Shiny app][http://shiny.rstudio.com/] that's featured on averagestar.com (`ui.R` and `server.R`).
+This repository contains the code for processing the data (`process_categories.R`), the resulting dataset in the R object format (`categories.Rdata`), and the [reactive Shiny app](http://shiny.rstudio.com/) that's featured on averagestar.com (`ui.R` and `server.R`).
 
 ## Processing the Data
 
