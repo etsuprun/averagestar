@@ -50,7 +50,7 @@ shinyUI(
              ggvisOutput("categoryvis"),
              helpText("© averagestar.com. Code and analysis by Eugene Tsuprun. The data is from the ",
                 a(href = "http://www.yelp.com/dataset_challenge","Yelp Challenge"),"."),
-             a(href = "https://github.com/etsuprun/yelpgalaxy",img(src = "github.png")),
+             a(href = "https://github.com/etsuprun/averagestar",img(src = "github.png")),
              a(href = "https://www.linkedin.com/pulse/why-internet-service-providers-airlines-get-bad-rap-eugene-tsuprun",
                img(src = "linkedin.png"))
 
