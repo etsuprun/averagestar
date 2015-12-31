@@ -92,8 +92,8 @@ shinyServer(function(input, output, session) {
   histogram.data %>%
     ggvis(~stars, ~percent) %>%
     layer_text(text := ~percent.label, dy := -10, dx :=-5) %>%
-    layer_bars(width = .3) %>%
-    
+    layer_bars(width = .3, fill = "00AAE3", stroke = "00AAE3") %>%
+    hide_legend(scales = c("fill","stroke")) %>%
     set_options(width="100%") %>%
     add_tooltip(function (data) {
       paste0(data$stack_upr_,

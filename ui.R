@@ -9,7 +9,7 @@ shinyUI(
     fluidRow(
       column(3,
              br(),
-             img(src="logo.png", height = "50")
+             img(src="logo.png", height = "30")
       ),
       column(9,
              titlePanel(windowTitle="averagestar.com - mean Yelp ratings by category","See how different types of businesses are rated on Yelp.")
