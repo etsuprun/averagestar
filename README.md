@@ -10,9 +10,9 @@ This repository contains the code for processing the data (`process_categories.R
 
 We process using `process_categories.R`. Each category with at least 10 businesses in the dataset gets a row in the dataframe `categories`, and we calculate the following:
 
-1) Number of businesses with each star rating (1-5, rounded to the nearest half star)
-2) Number of reviews with each star rating (1-5, whole numbers only)
-3) Funniness, usefulness, and coolness of reviews by category
+1. Number of businesses with each star rating (1-5, rounded to the nearest half star)
+2. Number of reviews with each star rating (1-5, whole numbers only)
+3. Funniness, usefulness, and coolness of reviews by category
 
 (Note that for averagestar.com, we're only using #1. #2 and #3 can be used in other projects, such as Yelp Galaxy.)
 
